@@ -1,6 +1,7 @@
 import Menu from "./Menu";
 import Menu1 from "./Menu1";
 import Menu2 from "./Menu2";
+import Titulo from "./Titulo";
 
 function App(){
 
@@ -35,10 +36,19 @@ function App(){
       },
     ];
 
+    
+    const titulo = [
+
+      {
+        title: "Destaques",
+      },
+   
+    ];
+
 	return(
 
 		<div className="cont"> 
-
+      
 			{
 			menu.map((cons, cont) => {
 					    return <Menu key={cont}
@@ -55,7 +65,9 @@ function App(){
 				})
 			}
 
+
       <div className="cont2">
+
       {   
 			menu2.map((cons, cont) => {
 					    return <Menu2 key={cont}
@@ -63,8 +75,19 @@ function App(){
 						/>;
 				})
 			}
-
+      
     </div>
+
+    <div className="tituloD">
+
+    {   
+			titulo.map((cons, cont) => {
+					    return <Titulo key={cont}
+							title={cons.title}
+						/>;
+				})
+			}
+      </div>
     </div>
 	);
 }
