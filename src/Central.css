@@ -38,6 +38,22 @@
 }
 
 .tituloD{
-    background-color: aqua;
+    margin-left: 10px;
 }
 
+.img{
+    height: 150px;
+    width: 250px;
+}
+
+.container {
+    display: flex;
+    width: 300px;
+}
+.conte{
+    margin-left: 50px;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}

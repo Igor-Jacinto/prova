@@ -1,4 +1,4 @@
-import "./Menu.css";
+import "./Central.css";
 
 function Titulo({title}){
 	

@@ -1,4 +1,4 @@
-import "./Menu.css";
+import "./Central.css";
 
 function Menu2({botao1}){
 	
