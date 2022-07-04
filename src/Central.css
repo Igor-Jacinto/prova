@@ -37,8 +37,8 @@
     margin-top: 10px;
 }
 
-.tituloD{
-    margin-left: 10px;
+.tt{
+  margin-left: 30px; 
 }
 
 .img{
@@ -48,12 +48,13 @@
 
 .container {
     display: flex;
-    width: 300px;
+    width: 360px;
+    height: 410px;
 }
 .conte{
-    margin-left: 50px;
+    margin-left: 30px;
     padding: 15px;
-    background-color: aqua;
+    border: 1px solid grey;
     border-radius: 10px;
 
 }
