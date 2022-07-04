@@ -1,0 +1,39 @@
+.imagem{
+    margin-left: 10px;
+}
+
+.cont{
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Open Sans';
+}
+
+.cont2{
+    margin-left: 180px;
+    display: flex;
+    color: red;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+}
+
+.cont2 :hover {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.titulo {
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.titulo1 {
+    margin-left: 40px;
+    border: none;
+    background-color: white;
+    color: red;
+    margin-top: 10px;
+}
+
